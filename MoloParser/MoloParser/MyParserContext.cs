@@ -33,20 +33,18 @@ namespace MoloParser
                     //(EOF)
                     //Token Kind: 3
                     
-                    
                     return null;
 
                 case (int)SymbolConstants.SYMBOL_ERROR :
                     //(Error)
                     //Token Kind: 7
                     
-                    
                     return null;
 
+                #region Comments & whitespace
                 case (int)SymbolConstants.SYMBOL_COMMENT :
                     //Comment
                     //Token Kind: 2
-                    
                     
                     return null;
 
@@ -64,11 +62,10 @@ namespace MoloParser
                     
                     return null;
 
-                #region Comments
+                
                 case (int)SymbolConstants.SYMBOL_TIMESDIV :
                     //'*/'
                     //Token Kind: 5
-                    
                     
                     return null;
 
@@ -76,13 +73,11 @@ namespace MoloParser
                     //'/*'
                     //Token Kind: 4
                     
-                    
                     return null;
 
                 case (int)SymbolConstants.SYMBOL_DIVDIV :
                     //'//'
                     //Token Kind: 6
-                    
                     
                     return null;
 
